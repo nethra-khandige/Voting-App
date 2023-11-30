@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <!--bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--bootstrap-->
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Playpen+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!--Google font-->
+
+    <!--Font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--Font awesome-->
+    <link rel="stylesheet" , href="css/style.css" />
+    <style>
+      /* Hide the checkbox visually */
+      #check {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body style="background-image: linear-gradient(45deg, #8193ee, transparent)">
+    <!--Navbar-->
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fa fa-bars"></i>
+      </label>
+      <label class="logo"> Voting System</label>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="voter/login.php">Login</a></li>
+        <li><a href="voter/register.php">Signup</a></li>
+      </ul>
+    </nav>
+
+    <!--Banner-->
+    <section id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" style="text-align: center">
+            <h1 class="BannerH1">ONLINE VOTING SYSTEM</h1>
+            <p>
+              Every vote counts.
+            </p>
+            <a href="voter/login.php"><button class="magnifyBtn">VOTE NOW</button></a>
+          </div>
+
+          <div class="col-md-6">
+            <img
+              src="img/2.svg"
+              alt="bannerImage"
+              srcset=""
+              height="400vh "
+              width="90%"
+              class="animate__animated animate__bounceInRight"
+              style="margin-left: 10px; margin-top: 20px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Banner-->
+
+    <!--Voting Section-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="pt-5 mx-auto">
+            <h1
+              class="text-center mt-5"
+              style="
+                text-align: center;
+                font-weight: bold;
+                font-size: 50px;
+                margin-top: 50px;
+              "
+            >
+              Online Voting System
+            </h1>
+            <div class="img">
+              <img
+                class="mx-auto"
+                src="img/10.svg"
+                width="80%"
+                height="auto"
+                style="margin-left: 150px"
+              />
+            </div>
+
+            <div class="mx-auto" style="text-align: center">
+              <a href="voter/login.php"><button class="magnifyBtn">VOTE NOW</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Voting Section-->
+
+    <!--About-->
+
+    <section id="about">
+      <div class="about_container">
+        <div class="about_row">
+          <div class="col-md-12">
+            <h1 class="abouth1">ABOUT</h1>
+          </div>
+          <div class="col-md-12">
+            <div class="about_row2">
+              <div class="pt-4 col-md-6">
+                <img src="img/6.svg" style="margin-top: 60px" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <p
+                style="
+                  margin: 0 0 10px;
+                  margin-top: 70px;
+                  margin-left: 70px;
+                  font-size: x-large;
+                  margin-right: 60px;
+                  color: white;
+                  font-family: roman;
+                "
+              >
+              Online voting systems are software platforms used to securely
+              conduct votes and elections. As a digital platform, they eliminate
+              the need to cast your votes using paper or having to gather in
+              person.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--About-->
+    
+    <!--Candidate section-->
+    <section id="about" class="mt-3 pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mt-5 mb-5">
+            <h1 class="text-center abouth1">Become a Candidate</h1>
+            <p class="text-center abouth1"> It is your time to represent!</p>
+          </div>
+          <div class="col-md-6">
+            <div class="img-candi-footer">
+              <img src="img/11.svg" alt="candidate-img" width="90%" srcset="">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="candi-apply-text">
+              <h1 class="mt-5 mb-2">Apply now</h1>
+              <p style="
+                margin: 0 0 10px;
+                margin-top: 70px;
+                margin-left: 70px;
+                font-size: x-large;
+                margin-right: 60px;
+                color: white;
+                font-family: roman;
+              ">
+                If you want to be Candidate, click on the link below. After the administrator approves your request, you can become a candidate!
+              </p>
+              <a href="./partials/login.php"><button class="magnifyBtn">APPLY</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--candidate section end-->
+    <!--footer/social media section-->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-m-6">
+            <div class="footer-social">
+              <ul class="d-flex list-unstyled p-2">
+                <li class="p-2">Home</li>
+                <li class="p-2">About</li>
+                <li class="p-2">Suggestion</li>
+                <li class="p-2">Contact</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+
+    <!--bootstrap-->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
